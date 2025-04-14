@@ -1,30 +1,25 @@
 class Arithmetic {
-  static double? add(double a, double b) {
-    return a + b;
-  }
+  // Menjumlahkan dua angka
+  static double? add(double a, double b) => a + b;
 
-  static double? substract(double a, double b) {
-    return a - b;
-  }
+  // Mengurangkan dua angka
+  static double? substract(double a, double b) => a - b;
 
-  static double? mul(double a, double b) {
-    return a * b;
-  }
+  // Mengalikan dua angka
+  static double? mul(double a, double b) => a * b;
 
-  static double? div(double a, double b) {
-    return a / b;
-  }
+  // Membagi dua angka (hasil pecahan)
+  static double? div(double a, double b) => a / b;
 
-  static int? intDiv(int a, int b) {
-    return a ~/ b;
-  }
+  // Pembagian bulat
+  static int? intDiv(int a, int b) => a ~/ b;
 
-  static int? mod(int a, int b) {
-    return a % b;
-  }
+  // Sisa bagi (modulo)
+  static int? mod(int a, int b) => a % b;
 }
 
 void main(List<String> args) {
+  // Contoh penggunaan method static Arithmetic
   print('10.0 + 3.0 = ${Arithmetic.add(10.0, 3.0)}');
   print('10.0 - 3.0 = ${Arithmetic.substract(10.0, 3.0)}');
   print('10.0 * 3.0 = ${Arithmetic.mul(10.0, 3.0)}');
